@@ -1,0 +1,29 @@
+{
+  "name": "css-modules-ssr",
+  "version": "1.0.0",
+  "description": "CSS-Modules + React on Server-Side",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --config=webpack.config.js"
+  },
+  "dependencies": {
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-react-jsx": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "css-modules-require-hook": "^4.0.5",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.13.1",
+    "webpack": "2"
+  }
+}
